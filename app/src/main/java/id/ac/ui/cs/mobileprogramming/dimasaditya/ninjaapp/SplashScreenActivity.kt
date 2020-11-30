@@ -17,7 +17,7 @@ class SplashScreenActivity : AppCompatActivity() {
         handler.postDelayed({
 
             // Delay and Start Activity
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this,WifiActivity::class.java)
             startActivity(intent)
             finish()
         } , 3000) // here we're delaying to startActivity after 3seconds
