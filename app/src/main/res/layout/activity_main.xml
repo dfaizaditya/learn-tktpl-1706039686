@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello world"
@@ -17,5 +18,21 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate number"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="81dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/number"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
