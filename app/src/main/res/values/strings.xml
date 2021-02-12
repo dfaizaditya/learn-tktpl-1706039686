@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">NinjaApp</string>
+    <string name="wellcome_title">Wellcome</string>
+    <string name="email_holder">Please enter your email</string>
+    <string name="name_label">Your name:</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="email_label">Email address:</string>
+    <string name="submit_label">Submit:</string>
 </resources>
